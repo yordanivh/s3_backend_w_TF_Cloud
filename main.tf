@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "yordan-bucket"
-    key    = "states/"
+    key    = "states/statefile"
     region = "us-east-1"
   }
 }
